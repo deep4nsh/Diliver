@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "607203234295",
+    "project_id": "diliver-8ec58",
+    "storage_bucket": "diliver-8ec58.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607203234295:android:e72007127ed351abb75ef2",
+        "android_client_info": {
+          "package_name": "deedev.diliver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbz8u4FCfMUTZc-NLZxBp5nVCFU_12wLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
