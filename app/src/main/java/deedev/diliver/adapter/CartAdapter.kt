@@ -42,6 +42,7 @@ private val itemQuantities = IntArray(CartItems.size){1}
                 }
                 deleteButton.setOnClickListener {
                     val itemPosition = adapterPosition
+                    it.playSoundEffect(android.view.SoundEffectConstants.CLICK)
                     if (itemPosition != RecyclerView.NO_POSITION) {
                         deleteItem(itemPosition)
                     }

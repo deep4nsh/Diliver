@@ -4,3 +4,9 @@ plugins {
     alias(libs.plugins.kotlin.android) apply false
     alias(libs.plugins.google.gms.google.services) apply false
 }
+// build.gradle.kts (Project-level)
+buildscript {
+    dependencies {
+        classpath(libs.gradle) // 👈 Add or update this line
+    }
+}
