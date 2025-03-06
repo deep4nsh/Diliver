@@ -20,6 +20,7 @@ private val itemQuantities = IntArray(CartItems.size){1}
 
     override fun onBindViewHolder(holder: CartViewHolder, position: Int) {
         holder.bind(position)
+
     }
 
     override fun getItemCount(): Int = CartItems.size
