@@ -41,6 +41,7 @@ class SearchFragment : Fragment() {
         binding.menuRecyclerView.adapter=adapter
 
         //show all menu items
+        setupSearchView()
         showAllMenu()
         return binding.root
     }
