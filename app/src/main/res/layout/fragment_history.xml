@@ -51,7 +51,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/textView8"
+                    android:id="@+id/buyAgainFoodName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -60,12 +60,12 @@
                     android:textColor="@color/black"
                     android:textSize="16sp"
                     android:textStyle="bold"
-                    app:layout_constraintBottom_toTopOf="@+id/textView9"
+                    app:layout_constraintBottom_toTopOf="@+id/buyAgainFoodPrice"
                     app:layout_constraintStart_toEndOf="@+id/imageView3"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/textView9"
+                    android:id="@+id/buyAgainFoodPrice"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/alata"
@@ -74,8 +74,8 @@
                     android:textSize="16sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="@+id/textView8"
-                    app:layout_constraintTop_toBottomOf="@+id/textView8" />
+                    app:layout_constraintStart_toStartOf="@+id/buyAgainFoodName"
+                    app:layout_constraintTop_toBottomOf="@+id/buyAgainFoodName" />
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="40dp"
@@ -96,14 +96,15 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="Recen buy"
             android:fontFamily="@font/alata"
-            android:textStyle="bold"
+            android:text="Recent buy"
             android:textColor="@color/black"
+            android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/BuyAgainRecyclerView"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginTop="16dp"
